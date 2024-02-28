@@ -1,12 +1,10 @@
+import random
+
 Paul = {
   "Age": "Young",
   "Hair": "Brown",
   "Eyes": "Blue",
   "Gender": "Male",
 }
-
-Paul_Hair = input("What is Paul's hair colour")
-if Paul_Hair in Paul["Hair"] or Paul_Hair in Paul["hair"]:
-  print("Correct")
-else:
-  print("False")
+print("You got Paul who is Young, Brown hair, Blue eyed, and Male")
+Thing = random.randint(1,4)
