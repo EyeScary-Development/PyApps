@@ -1,9 +1,12 @@
 Paul = {
   "Age": "Young",
+  "age": "young",
   "Hair": "Brown",
   "hair": "brown",
   "Eyes": "Blue",
-  "Gender": "Male"
+  "eyes": "blue",
+  "Gender": "Male",
+  "gender": "male"
 }
 
 Paul_Hair = input("What is Paul's hair colour")
