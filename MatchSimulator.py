@@ -30,7 +30,7 @@ else:
 if Team1 in PremList and Team2 in PremList:
   if PremList[Team1] > PremList[Team2]:
     Thing = random.randint(1,100)
-    if Thing > PremList[Team2]:
+    if Thing < PremList[Team2]:
       print(PremName[Team2], " won")
     elif Thing < PremList[Team1] and Thing > PremList[Team2]:
       print(PremName[Team1]," won")
